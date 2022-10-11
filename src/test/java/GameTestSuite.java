@@ -29,9 +29,6 @@ public class GameTestSuite {
         game.roll(8);
         game.roll(6);
 
-
-
-
         assertEquals(133, game.getScore());
     }
 
