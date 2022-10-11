@@ -6,9 +6,7 @@ public class Game {
     private int currentRoll = 0;
 
     public void roll(int pins) {
-
         rolls[currentRoll++] = pins;
-
     }
 
     public int getScore() {
@@ -39,7 +37,6 @@ public class Game {
 
     private int getStrikeScore(int rollIndex) {
         return rolls[rollIndex] + rolls[rollIndex + 1] + rolls[rollIndex + 2];
-
     }
 
     private int getStrScore(int rollIndex) {
